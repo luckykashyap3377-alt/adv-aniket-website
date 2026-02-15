@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adv. Aniket Kashyap | Advocate</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background:#f8f9fb;
+    color:#222;
+}
+
+/* Header */
+header{
+    background:white;
+    padding:30px 0;
+    text-align:center;
+    border-bottom:3px solid #d4af37;
+    animation:fadeIn 1.2s ease-in-out;
+}
+
+header h1{
+    margin:5px;
+    font-size:34px;
+    letter-spacing:2px;
+    color:#0a1f44;
+}
+
+header p{
+    margin:6px;
+    font-size:15px;
+    color:#555;
+}
+
+/* Hero Section */
+.hero{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    padding:60px 20px;
+    background:white;
+    animation:slideUp 1.2s ease-in-out;
+}
+
+.hero img{
+    width:260px;
+    height:320px;
+    object-fit:cover;
+    border-radius:12px;
+    border:3px solid #d4af37;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    margin:20px;
+    transition:0.4s;
+}
+
+.hero img:hover{
+    transform:scale(1.05);
+}
+
+.hero-text{
+    max-width:520px;
+    margin:20px;
+}
+
+.hero-text h2{
+    font-size:26px;
+    color:#0a1f44;
+}
+
+/* Sections */
+section{
+    padding:70px 20px;
+    text-align:center;
+}
+
+.section-title{
+    font-size:28px;
+    margin-bottom:30px;
+    color:#0a1f44;
+    position:relative;
+}
+
+.section-title::after{
+    content:'';
+    width:60px;
+    height:3px;
+    background:#d4af37;
+    display:block;
+    margin:10px auto;
+}
+
+/* Practice Grid */
+.practice-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    transition:0.4s;
+    font-weight:500;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Contact Section */
+.contact{
+    background:white;
+    border-top:2px solid #d4af37;
+}
+
+/* Footer */
+footer{
+    background:#0a1f44;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+
+/* Animations */
+@keyframes fadeIn{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+@keyframes slideUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>ADV. ANIKET KASHYAP</h1>
+    <p>Trusted Legal Guidance, Strong Representation & Clear Advice</p>
+    <p>District & Sessions Court, Aligarh</p>
+</header>
+
+<div class="hero">
+    <img src="Adv.jpg" alt="Advocate Photo">
+    <div class="hero-text">
+        <h2>About Advocate</h2>
+        <p><strong>Education:</strong> B.A.LLB</p>
+        <p>Dedicated legal professional providing strategic legal solutions and strong courtroom representation.</p>
+    </div>
+</div>
+
+<section>
+    <h2 class="section-title">Practice Areas</h2>
+    <div class="practice-grid">
+        <div class="card">Criminal Law</div>
+        <div class="card">Civil Law</div>
+        <div class="card">Family Law</div>
+        <div class="card">Property Disputes</div>
+        <div class="card">Bail Matters</div>
+        <div class="card">Consumer Forum</div>
+        <div class="card">Accident Claim Cases</div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2 class="section-title">Contact Information</h2>
+    <p><strong>Phone:</strong> 7455868088</p>
+    <p><strong>Email:</strong> aniketkashyapa25@gmail.com</p>
+    <p><strong>Office Address:</strong> In front of CJM Building, Aligarh</p>
+</section>
+
+<footer>
+    © 2026 Adv. Aniket Kashyap | All Rights Reserved
+</footer>
+
+</body>
+</html>
